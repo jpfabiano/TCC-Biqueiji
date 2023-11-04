@@ -1,0 +1,111 @@
+ /* Estilos para o corpo da página */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Fundo branco */
+    color: #000; /* Texto preto */
+    margin: 20px; /* Adiciona uma margem ao redor do conteúdo */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px; /* Adiciona espaçamento interno para o conteúdo dentro do cabeçalho */
+    position: relative;
+    margin: 0;
+    border: 2px solid #4caf50; /* Adiciona uma borda verde */
+    border-bottom: 2px solid #4caf50; /* Adiciona uma borda amarela na parte inferior */
+  }
+  
+
+.logo img {
+    max-height: 50px; /* Define uma altura máxima para o logotipo */
+}
+
+.resultados img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    clear: left; /* Garante que a próxima linha comece abaixo da última imagem */
+}
+
+.diagrama img{
+    float: left; /* Faz a imagem flutuar à esquerda */
+  margin: 10px; /* Adiciona um espaçamento ao redor da imagem (pode ajustar conforme necessário) */
+}
+
+.materiais {
+    margin: 10px;
+    overflow: hidden;
+    clear: left; /* Adiciona uma quebra após o elemento flutuante à esquerda (diagrama) */
+}
+
+.titulo h1 {
+    font-size: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px; /* Adiciona um espaço entre os links */
+}
+
+/* Estilos para as seções */
+section {
+    margin-bottom: 40px;
+    border: 2px solid #4caf50; /* Adiciona uma borda verde */
+    border-bottom: 2px solid #4caf50; /* Adiciona uma borda amarela na parte inferior */
+    padding: 20px; /* Adiciona espaçamento interno */
+}
+
+section h2 {
+    clear: left;
+    font-size: 20px;
+    color: #4caf50;
+}
+
+section h3 {
+    font-size: 18px;
+    color: #4caf50;
+}
+
+section img {
+    max-width: 100%;
+    height : auto;
+    display: block;
+    margin: 20px auto;
+}
+
+section p {
+    text-align: justify;
+}
+
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    border: 2px solid #4caf50; /* Adiciona uma borda verde */
+    border-bottom: 2px solid #4caf50; /* Adiciona uma borda amarela na parte inferior */
+}
+
+footer nav a {
+    margin: 0 10px;
+}
+
+/* Estilos para o link de contato no rodapé */
+footer a {
+    color: #000000; /* Verde */
+}
+
+/* Estilos para o link de contato no rodapé quando hover */
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
